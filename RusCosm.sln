@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RusCosm", "RusCosm\RusCosm.csproj", "{66A40849-3B35-49FC-8B27-D9B482B86AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{01373DDD-0305-4AD3-BA38-682CFF19D4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTests", "LibraryTests\LibraryTests.csproj", "{9BA6689E-F58E-4C40-9291-216773F46B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66A40849-3B35-49FC-8B27-D9B482B86AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A40849-3B35-49FC-8B27-D9B482B86AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A40849-3B35-49FC-8B27-D9B482B86AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A40849-3B35-49FC-8B27-D9B482B86AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01373DDD-0305-4AD3-BA38-682CFF19D4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01373DDD-0305-4AD3-BA38-682CFF19D4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01373DDD-0305-4AD3-BA38-682CFF19D4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01373DDD-0305-4AD3-BA38-682CFF19D4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA6689E-F58E-4C40-9291-216773F46B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA6689E-F58E-4C40-9291-216773F46B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA6689E-F58E-4C40-9291-216773F46B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA6689E-F58E-4C40-9291-216773F46B81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

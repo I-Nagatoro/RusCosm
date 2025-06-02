@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="RusCosm/AddClientWindow.axaml" value="RusCosm/RusCosm.csproj" />
+        <entry key="RusCosm/MainWindow.axaml" value="RusCosm/RusCosm.csproj" />
+        <entry key="RusCosm/OrderWindow.axaml" value="RusCosm/RusCosm.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

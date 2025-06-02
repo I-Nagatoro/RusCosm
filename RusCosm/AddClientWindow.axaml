@@ -1,0 +1,87 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="RusCosm.AddClientWindow"
+        Width="400" Height="500" Title="Добавить клиента">
+
+    <StackPanel Margin="20" Spacing="10">
+        <ComboBox x:Name="ClientTypeBox" SelectionChanged="ClientTypeBox_SelectionChanged" />
+    
+        <!-- Юридическое лицо -->
+        <StackPanel x:Name="LegalFields" IsVisible="False" Spacing="8" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" Spacing="10">
+            <TextBlock Text="Код клиента:" Margin="0,5,0,0"/>
+            <TextBox Width="150" Name="ClientCodeBoxLegal"/>
+            
+            <TextBlock Text="Компания:" />
+            <TextBox Width="150" x:Name="CompanyNameBox" />
+      
+            <TextBlock Text="Адрес:" />
+            <TextBox Width="150" x:Name="AddressBox" />
+      
+            <TextBlock Text="ИНН:" />
+            <TextBox Width="150" x:Name="INNBox" />
+      
+            <TextBlock Text="Расчётный счёт:" />
+            <TextBox Width="150" x:Name="AccountBox" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Spacing="10" Margin="20,5,0,0">
+            <TextBlock Text="БИК:"/>
+            <TextBox Width="150" x:Name="BIKBox" />
+      
+            <TextBlock Text="Директор:" />
+            <TextBox Width="150" x:Name="DirectorBox" />
+      
+            <TextBlock Text="Контактное лицо:"/>
+            <TextBox Width="150" x:Name="ContactBox" />
+      
+            <TextBlock Text="Телефон:" />
+            <TextBox Width="150" x:Name="PhoneBox" />
+      
+            <TextBlock Text="Email:"/>
+            <TextBox Width="150" x:Name="EmailBox" />
+      
+
+            </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock Text="Пароль:" />
+            <TextBox Width="150" x:Name="PasswordBoxLegal" />
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Физическое лицо -->
+        <StackPanel x:Name="IndividualFields" IsVisible="False" Spacing="8" Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" Margin="0,10,0,0">
+            <StackPanel Orientation="Vertical">
+            <TextBlock Text="Код клиента:"/>
+            <TextBox Name="ClientCodeBox"/>
+            
+            <TextBlock Text="ФИО:" />
+            <TextBox x:Name="FullNameBox" />
+      
+            <TextBlock Text="Паспортные данные:" />
+            <TextBox x:Name="PassportBox" />
+            </StackPanel>
+      
+            <StackPanel Orientation="Vertical">
+      
+            <TextBlock Text="Адрес:" />
+            <TextBox x:Name="AddressIndBox" />
+      
+            <TextBlock Text="Email:" />
+            <TextBox x:Name="EmailIndBox" />
+      
+            <TextBlock Text="Пароль:" />
+            <TextBox x:Name="PasswordBoxInd" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Дата рождения:" />
+                <DatePicker x:Name="BirthDatePicker" />
+            </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Content="Сохранить" Click="SaveClient_Click" />
+    </StackPanel>
+</Window>
